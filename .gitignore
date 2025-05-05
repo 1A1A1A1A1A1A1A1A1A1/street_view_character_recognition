@@ -1,9 +1,8 @@
 __pycache__/*
 coco/images/
-coco/lables/*.txt
+coco/labels/*.txt"
 coco/images.shapes
 coco/labels.npy
-data/coco128.yaml
 models/__pycache__/*
 runs/*
 utils/__pycache__/*
