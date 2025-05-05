@@ -26,23 +26,23 @@
 ## 目录结构
 
 ```
-├── coco/                 # 数据集目录
-│   ├── images/           # 所有图像文件
-│   │   ├── train/        # 训练集图像
-│   │   ├── val/          # 验证集图像
-│   │   └── test/         # 测试集图像
-│   └── labels/           # 标签文件
-│       ├── train/        # 训练集标签
-│       └── val/          # 验证集标签
+├── coco/                        # 数据集目录
+│   ├── images/                  # 所有图像文件
+│   │   ├── train/mchar_train/   # 训练集图像
+│   │   ├── val/mchar_val/       # 验证集图像
+│   │   └── test/mchar_test_a/   # 测试集图像
+│   └── labels/                  # 标签文件
+│       ├── train/               # 训练集标签
+│       └── val/                 # 验证集标签
 │
-├── data/                 # 数据配置目录
-│   └── coco.yaml         # 数据集配置文件
+├── data/                        # 数据配置目录
+│   └── coco.yaml                # 数据集配置文件
 │
-├── models/               # 模型定义目录
-│   ├── yolov5s.yaml      # 小型YOLOv5模型配置
-│   ├── yolov5m.yaml      # 中型YOLOv5模型配置
-│   ├── yolov5l.yaml      # 大型YOLOv5模型配置
-│   └── yolov5x.yaml      # 超大型YOLOv5模型配置
+├── models/                      # 模型定义目录
+│   ├── yolov5s.yaml             # 小型YOLOv5模型配置
+│   ├── yolov5m.yaml             # 中型YOLOv5模型配置
+│   ├── yolov5l.yaml             # 大型YOLOv5模型配置
+│   └── yolov5x.yaml             # 超大型YOLOv5模型配置
 │
 ├── utils/                # 工具函数目录
 │   ├── activations.py    # 激活函数
