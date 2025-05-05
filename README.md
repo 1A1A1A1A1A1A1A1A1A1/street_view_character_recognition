@@ -44,25 +44,25 @@
 │   ├── yolov5l.yaml             # 大型YOLOv5模型配置
 │   └── yolov5x.yaml             # 超大型YOLOv5模型配置
 │
-├── utils/                # 工具函数目录
-│   ├── activations.py    # 激活函数
-│   ├── datasets.py       # 数据集加载工具
-│   ├── google_utils.py   # Google云存储工具
-│   ├── torch_utils.py    # PyTorch工具函数
-│   └── utils.py          # 通用工具函数
+├── utils/                       # 工具函数目录
+│   ├── activations.py           # 激活函数
+│   ├── datasets.py              # 数据集加载工具
+│   ├── google_utils.py          # Google云存储工具
+│   ├── torch_utils.py           # PyTorch工具函数
+│   └── utils.py                 # 通用工具函数
 │
-├── weights/              # 模型权重目录
-│   └── yolov5*.pt        # 预训练模型权重
+├── weights/                     # 模型权重目录
+│   └── yolov5*.pt               # 预训练模型权重
 │
-├── detect.py             # 字符检测与识别脚本
-├── image_merge.py        # 训练集和验证集图像合并工具
-├── make_label.py         # JSON标注转YOLO格式标签工具
-├── train.py              # 模型训练脚本
-├── test.py               # 模型测试与评估脚本
-├── result_merge.py       # 多模型结果合并工具
-├── create_dirs.sh        # 创建目录结构脚本
-├── install_conda.sh      # Conda环境安装脚本
-├── run_pipeline.sh       # 项目流程自动化脚本
+├── detect.py                    # 字符检测与识别脚本
+├── image_merge.py               # 训练集和验证集图像合并工具
+├── make_label.py                # JSON标注转YOLO格式标签工具
+├── train.py                     # 模型训练脚本
+├── test.py                      # 模型测试与评估脚本
+├── result_merge.py              # 多模型结果合并工具
+├── create_dirs.sh               # 创建目录结构脚本
+├── install_conda.sh             # Conda环境安装脚本
+├── run_pipeline.sh              # 项目流程自动化脚本
 ```
 
 ## 创建文件夹
